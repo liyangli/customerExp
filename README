@@ -1,0 +1,11 @@
+该项目主要为一个多线程大数据导出功能;
+主要包含linux下对应导出;
+linux下默认配置文件所在路径:
+/opt/bohui/vsmExport下
+配置文件包含:
+config.properties
+ID
+
+config.properties文件主要进行存放相关导出基本配置.数据库配置信息
+
+ID进行记录数据库最后倒入的ID值方便定时任务执行操作;
